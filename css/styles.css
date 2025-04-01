@@ -215,33 +215,111 @@ body {
 /* DEVELOPER word */
 
 .developerDLetter {
+	font-size: 45px;
+	font-weight: normal;
+	color: rgb(255, 255, 255);
+	text-decoration: underline;
+	text-transform: lowercase;
+	font-family: "Ceviche One", sans-serif;
 }
 .developerELetter {
+	font-size: 50px;
+	font-weight: 400;
+	color: #627fff;
+	text-decoration: overline;
+	text-transform: none;
+	font-family: "Cookie", sans-serif;
 }
 .developerVLetter {
+	font-size: 72px;
+	font-weight: normal;
+	color: rgb(255, 10, 214);
+	text-decoration: none;
+	text-transform: none;
+	font-family: "Raleway Dots", sans-serif;
 }
 .developerETwoLetter {
+	font-size: 30px;
+	font-weight: normal;
+	color: rgb(255, 251, 10);
+	text-decoration: none;
+	text-transform: capitalize;
+	font-family: "Ceviche One", sans-serif;
 }
 .developerLLetter {
+	font-size: 72px;
+	font-weight: 700;
+	color: #ff7070;
+	text-decoration: none;
+	text-transform: lowercase;
+	font-family: "Piazolla", sans-serif;
 }
 .developerOLetter {
+	font-size: 50px;
+	font-weight: 400;
+	color: #8785a3;
+	text-decoration: line-through;
+	text-transform: uppercase;
+	font-family: "Kablammo", sans-serif;
 }
 .developerPLetter {
+	font-size: 50px;
+	font-weight: 400;
+	color: rgb(141, 2, 255);
+	text-decoration: underline;
+	text-transform: none;
+	font-family: "Cookie", sans-serif;
 }
 .developerEThreeLetter {
+	font-size: 30px;
+	font-weight: bold;
+	color: rgb(255, 136, 0);
+	text-decoration: overline;
+	text-transform: capitalize;
+	font-family: "Piazolla", sans-serif;
 }
 .developerRLetter {
+	font-size: 72px;
+	font-weight: normal;
+	color: rgb(0, 255, 98);
+	text-decoration: none;
+	text-transform: lowercase;
+	font-family: "Raleway Dots", sans-serif;
 }
 
 /* TAKE word */
 
 .takeTLetter {
+	font-size: 45px;
+	font-weight: bold;
+	color: #00ffea;
+	text-decoration: line-through;
+	text-transform: capitalize;
+	font-family: "Offside", sans-serif;
 }
 .takeALetter {
+	font-size: 30px;
+	font-weight: 400;
+	color: #a200ff;
+	text-decoration: overline;
+	text-transform: none;
+	font-family: "Kablammo", sans-serif;
 }
 .takeKLetter {
+	font-size: 50px;
+	font-weight: bold;
+	color: rgb(255, 208, 0);
+	text-decoration: none;
+	text-transform: lowercase;
+	font-family: "Ceviche One", sans-serif;
 }
 .takeELetter {
+	font-size: 72px;
+	font-weight: 400;
+	color: rgb(210, 105, 30);
+	text-decoration: underline;
+	text-transform: capitalize;
+	font-family: "Cookie", sans-serif;
 }
 
 /* UP word */
@@ -380,9 +458,13 @@ body {
 
 /* SYMBOLS */
 
-.hyphen {
-}
-.exclamation-mark {
-}
+.hyphen,
+.exclamation-mark,
 .question-mark {
+	font-size: 72px;
+	font-weight: bold;
+	color: rgb(255, 0, 85);
+	text-decoration: none;
+	text-transform: none;
+	font-family: "Raleway Dots", sans-serif;
 }
