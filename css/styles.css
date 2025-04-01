@@ -1,131 +1,215 @@
-@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Kablammo:MORF@0..60&family=Offside&display=swap");
 
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 
 body,
 html {
-  width: 100%;
-  min-height: 100%;
+	width: 100%;
+	min-height: 100%;
 }
 
 body {
-  display: flex;
-  padding: 100px;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 20px;
-  background-color: #282a56;
+	display: flex;
+	padding: 100px;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 20px;
+	background-color: #282a56;
 }
 
 .container {
-  display: flex;
-  justify-content: center;
-  gap: 90px;
-  flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+	gap: 90px;
+	flex-wrap: wrap;
 }
 
 .word {
-  max-width: max-content;
-  display: flex;
-  gap: 20px;
+	max-width: max-content;
+	display: flex;
+	gap: 20px;
 }
 
 .word > span {
-  position: relative;
-  padding: 20px 30px;
-  width: max-content;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 90px;
-  max-height: 90px;
-  border: 6px solid grey;
-  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
-  transition: all 0.8s ease-in-out;
+	position: relative;
+	padding: 20px 30px;
+	width: max-content;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 90px;
+	max-height: 90px;
+	border: 6px solid grey;
+	box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+	transition: all 0.8s ease-in-out;
 }
 
 /* Sample CSS for the WHY word */
 
 .whyWLetter {
-  font-size: 72px;
-  font-weight: bold;
-  color: aqua;
-  text-decoration: underline;
-  text-transform: uppercase;
-  font-family: 'Piazolla', sans-serif;
+	font-size: 72px;
+	font-weight: bold;
+	color: aqua;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-family: "Piazolla", sans-serif;
 }
 
 .whyHLetter {
-  font-size: 30px;
-  font-weight: bold;
-  color: darkgoldenrod;
-  text-decoration: overline;
-  text-transform: lowercase;
-  font-family: 'Ceviche One', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: darkgoldenrod;
+	text-decoration: overline;
+	text-transform: lowercase;
+	font-family: "Ceviche One", sans-serif;
 }
 
 .whyYLetter {
-  font-size: 60px;
-  font-weight: normal;
-  color: coral;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+	font-size: 60px;
+	font-weight: normal;
+	color: coral;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: "Raleway Dots", sans-serif;
 }
 
 /* DID word */
 
 .didDLetter {
+	font-size: 45px;
+	font-weight: 400;
+	color: rgb(255, 6, 193);
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: "Cookie", sans-serif;
 }
 
 .didILetter {
+	font-size: 60px;
+	font-weight: 700;
+	color: rgb(0, 255, 42);
+	text-decoration: underline;
+	text-transform: none;
+	font-family: "Kablammo", sans-serif;
 }
 
 .didDTwoLetter {
+	font-size: 72px;
+	font-weight: bold;
+	color: rgb(76, 0, 255);
+	text-decoration: line-through;
+	text-transform: capitalize;
+	font-family: "Offside", sans-serif;
 }
 
 /* THE word */
 
 .theTLetter {
+	font-size: 60px;
+	font-weight: normal;
+	color: rgb(255, 80, 232);
+	text-decoration: none;
+	text-transform: capitalize;
+	font-family: "Raleway Dots", sans-serif;
 }
 
 .theHLetter {
+	font-size: 60px;
+	font-weight: normal;
+	color: rgb(0, 255, 42);
+	text-decoration: line-through;
+	text-transform: lowercase;
+	font-family: "Piazolla", sans-serif;
 }
 
 .theELetter {
+	font-size: 30px;
+	font-weight: 700;
+	color: rgb(255, 127, 80);
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: "Cookie", sans-serif;
 }
 
 /* FRONT-END word */
 
 .frontendFLetter {
+	font-size: 72px;
+	font-weight: normal;
+	color: #00ffff;
+	text-decoration: none;
+	text-decoration: none;
+	font-family: "Ceviche One", sans-serif;
 }
 
 .frontendRLetter {
+	font-size: 72px;
+	font-weight: bold;
+	color: #ff0000;
+	text-decoration: underline;
+	text-transform: capitalize;
+	font-family: "Offside", sans-serif;
 }
 
 .frontendOLetter {
+	font-size: 45px;
+	font-weight: 400;
+	color: #b8860b;
+	text-decoration: overline;
+	text-transform: lowercase;
+	font-family: "Kablammo", sans-serif;
 }
 
 .frontendNLetter {
+	font-size: 30px;
+	font-weight: 400;
+	color: #eeff06;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: "Cookie", sans-serif;
 }
 
 .frontendTLetter {
+	font-size: 60px;
+	font-weight: 700;
+	color: rgb(0, 255, 42);
+	text-decoration: underline;
+	text-transform: none;
+	font-family: "Raleway Dots", sans-serif;
 }
-
 .frontendELetter {
+	font-size: 45px;
+	font-weight: normal;
+	color: #ff0000;
+	text-decoration: line-through;
+	text-transform: lowercase;
+	font-family: "Piazolla", sans-serif;
 }
 
 .frontendNTwoLetter {
+	font-size: 72px;
+	font-weight: bold;
+	color: #ff00bf;
+	text-decoration: line-through;
+	text-transform: capitalize;
+	font-family: "Offside", sans-serif;
 }
 
 .frontendDLetter {
+	font-size: 30px;
+	font-weight: 400;
+	color: #00fff2;
+	text-decoration: overline;
+	text-transform: uppercase;
+	font-family: "Kablammo", sans-serif;
 }
 
 /* DEVELOPER word */
