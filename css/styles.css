@@ -57,7 +57,7 @@ body {
 .whyWLetter {
 	font-size: 72px;
 	font-weight: bold;
-	color: aqua;
+	color: rgb(0, 255, 255);
 	text-decoration: underline;
 	text-transform: uppercase;
 	font-family: "Piazolla", sans-serif;
@@ -66,7 +66,7 @@ body {
 .whyHLetter {
 	font-size: 30px;
 	font-weight: bold;
-	color: darkgoldenrod;
+	color: #b8860b;
 	text-decoration: overline;
 	text-transform: lowercase;
 	font-family: "Ceviche One", sans-serif;
@@ -75,7 +75,7 @@ body {
 .whyYLetter {
 	font-size: 60px;
 	font-weight: normal;
-	color: coral;
+	color: rgb(255, 127, 80);
 	text-decoration: none;
 	text-transform: uppercase;
 	font-family: "Raleway Dots", sans-serif;
@@ -325,46 +325,154 @@ body {
 /* UP word */
 
 .upULetter {
+	font-size: 45px;
+	font-weight: bold;
+	color: #480064;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-family: "Offside", sans-serif;
 }
 .upPLetter {
+	font-size: 50px;
+	font-weight: 400;
+	color: rgb(0, 255, 13);
+	text-decoration: overline;
+	text-transform: none;
+	font-family: "Raleway Dots", sans-serif;
 }
 
 /* GARDENING word */
 
 .gardeningGLetter {
+	font-size: 45px;
+	font-weight: 400;
+	color: rgb(255, 6, 193);
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: "Cookie", sans-serif;
 }
 .gardeningALetter {
+	font-size: 72px;
+	font-weight: 700;
+	color: #ff7070;
+	text-decoration: none;
+	text-transform: lowercase;
+	font-family: "Piazolla", sans-serif;
 }
 .gardeningRLetter {
+	font-size: 45px;
+	font-weight: normal;
+	color: rgb(255, 255, 255);
+	text-decoration: underline;
+	text-transform: lowercase;
+	font-family: "Ceviche One", sans-serif;
 }
 .gardeningDLetter {
+	font-size: 30px;
+	font-weight: 400;
+	color: #a200ff;
+	text-decoration: overline;
+	text-transform: none;
+	font-family: "Kablammo", sans-serif;
 }
 .gardeningELetter {
+	font-size: 72px;
+	font-weight: normal;
+	color: rgb(255, 10, 214);
+	text-decoration: none;
+	text-transform: none;
+	font-family: "Raleway Dots", sans-serif;
 }
 .gardeningNLetter {
+	font-size: 45px;
+	font-weight: bold;
+	color: rgb(72, 0, 100);
+	text-decoration: line-through;
+	text-transform: capitalize;
+	font-family: "Offside", sans-serif;
 }
 .gardeningILetter {
+	font-size: 30px;
+	font-weight: bold;
+	color: rgb(255, 136, 0);
+	text-decoration: overline;
+	text-transform: capitalize;
+	font-family: "Piazolla", sans-serif;
 }
 .gardeningNTwoLetter {
+	font-size: 72px;
+	font-weight: 400;
+	color: rgb(255, 149, 74);
+	text-decoration: underline;
+	text-transform: capitalize;
+	font-family: "Cookie", sans-serif;
 }
 .gardeningGTwoLetter {
+	font-size: 50px;
+	font-weight: 400;
+	color: rgb(47, 0, 255);
+	text-decoration: none;
+	text-transform: none;
+	font-family: "Raleway Dots", sans-serif;
 }
 
 /* BECAUSE word */
 
 .becauseBLetter {
+	font-size: 45px;
+	font-weight: bold;
+	color: rgb(0, 225, 255);
+	text-decoration: line-through;
+	text-transform: capitalize;
+	font-family: "Offside", sans-serif;
 }
 .becauseELetter {
+	font-size: 30px;
+	font-weight: 400;
+	color: #eeff00;
+	text-decoration: overline;
+	text-transform: uppercase;
+	font-family: "Kablammo", sans-serif;
 }
 .becauseCLetter {
+	font-size: 72px;
+	font-weight: 700;
+	color: #000000;
+	text-decoration: none;
+	text-transform: lowercase;
+	font-family: "Piazolla", sans-serif;
 }
 .becauseALetter {
+	font-size: 60px;
+	font-weight: normal;
+	color: rgb(255, 127, 80);
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: "Raleway Dots", sans-serif;
 }
 .becauseULetter {
+	font-size: 45px;
+	font-weight: 400;
+	color: rgb(0, 252, 147);
+	text-decoration: none;
+	text-transform: capitalize;
+	font-family: "Cookie", sans-serif;
 }
 .becauseSLetter {
+	font-size: 30px;
+	font-weight: bold;
+	color: rgb(255, 0, 149);
+	text-decoration: overline;
+	text-transform: lowercase;
+	font-family: "Piazolla", sans-serif;
 }
 .becauseETwoLetter {
+	font-size: 70px;
+	font-weight: normal;
+	color: rgb(72, 0, 100);
+	text-decoration: none;
+	text-transform: lowercase;
+	font-family: "Offside", sans-serif;
 }
 
 /* THEY word */
